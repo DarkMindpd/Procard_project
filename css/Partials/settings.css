@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../../static/image/main_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+}
+
+.swiper1 {
+  width: 100%;
+}
+
+.swiper1 > div > div {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+@font-face {
+  font-family: "primary-font";
+  src: url(../../static/font/fa/Yekan/WebFonts/fonts/woff/iranyekanwebregular.woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "primary-font";
+  src: url(../../static/font/fa/Yekan/WebFonts/fonts/woff/iranyekanwebbold.woff);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "primary-font";
+  src: url(../../static/font/fa/Yekan/Farsi_numerals/WebFonts/fonts/woff/iranyekanwebregularfanum.woff);
+  unicode-range: U+30-39;
+}
+
+@font-face {
+  font-family: "secondary-font";
+  src: url(../../static/font/fa/Pinar/Statics/woff2/Pinar-Regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "secondary-font";
+  src: url(../../static/font/fa/Pinar/Statics/woff2/Pinar-Bold.woff2);
+  font-weight: 700;
+}
